@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="Assets/js/bootstrap.js|Assets/js/bootstrap.min.js|Assets/js/charts.js|Assets/js/charts.min.js|Assets/js/core.js|Assets/js/core.min.js|Assets/js/counter.js|Assets/js/counter.min.js|Assets/js/custom.js|Assets/js/custom.min.js|Assets/js/dataTables.bootstrap.js|Assets/js/dataTables.bootstrap.min.js|Assets/js/excanvas.js|Assets/js/fullcalendar.js|Assets/js/fullcalendar.min.js|Assets/js/jquery-1.10.2.min.js|Assets/js/jquery-migrate-1.2.1.min.js|Assets/js/jquery-ui-1.10.3.custom.js|Assets/js/jquery-ui-1.10.3.custom.min.js|Assets/js/jquery-ui-1.10.3.min.js|Assets/js/jquery.autosize.min.js|Assets/js/jquery.chosen.min.js|Assets/js/jquery.cleditor.min.js|Assets/js/jquery.cookie.js|Assets/js/jquery.dataTables.min.js|Assets/js/jquery.elfinder.min.js|Assets/js/jquery.flot.js|Assets/js/jquery.flot.min.js|Assets/js/jquery.flot.pie.js|Assets/js/jquery.flot.pie.min.js|Assets/js/jquery.flot.resize.min.js|Assets/js/jquery.flot.stack.js|Assets/js/jquery.flot.time.js|Assets/js/jquery.gritter.js|Assets/js/jquery.gritter.min.js|Assets/js/jquery.imagesloaded.js|Assets/js/jquery.iphone.toggle.js|Assets/js/jquery.knob.js|Assets/js/jquery.knob.modified.js|Assets/js/jquery.masonry.min.js|Assets/js/jquery.noty.js|Assets/js/jquery.placeholder.min.js|Assets/js/jquery.raty.min.js|Assets/js/jquery.sparkline.js|Assets/js/jquery.sparkline.min.js|Assets/js/jquery.ui.touch-punch.js|Assets/js/jquery.uniform.min.js|Assets/js/jquery.uploadify-3.1.min.js|Assets/js/justgage.1.0.1.min.js|Assets/js/modernizr.js|Assets/js/raphael.2.1.0.min.js|Assets/js/retina.js|Assets/js/wizard.min.js" kind="src" path="src/main/webapp"/>
+	<classpathentry kind="src" path="target/m2e-wtp/web-resources"/>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.WebProject">
+		<attributes>
+			<attribute name="hide" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.baseBrowserLibrary"/>
+	<classpathentry kind="output" path=""/>
+</classpath>
