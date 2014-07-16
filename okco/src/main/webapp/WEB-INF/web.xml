@@ -1,0 +1,49 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  	<display-name>Archetype Created Web Application</display-name>
+  	
+	<context-param>
+	   <param-name>javax.faces.PROJECT_STAGE</param-name>
+	   <param-value>Development</param-value>				<!-- Set 'Production' when the program will ready -->
+	</context-param>
+	
+	<servlet>
+      <servlet-name>dispatcher</servlet-name>
+      <servlet-class>
+          org.springframework.web.servlet.DispatcherServlet
+      </servlet-class>
+      <init-param>
+          <param-name>contextConfigLocation</param-name>
+          <param-value>
+              /WEB-INF/spring-context.xml
+          </param-value>
+      </init-param>
+	  <load-on-startup>1</load-on-startup>
+	</servlet>
+	
+	<!-- Este parâmetro é uma configuração que pode ser passada para o servlet pelo web.xml. 
+         Aqui definimos o nome do arquivo de configuração do framework Spring, o spring-context.xml. 
+         Quando o Servlet é carregado, ele vai procurar esse spring-context.xml dentro da pasta WEB-INF. -->
+	
+	<servlet-mapping>
+      <servlet-name>dispatcher</servlet-name>
+      <url-pattern>/</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>	
+	  <servlet-name>default</servlet-name>
+	   <url-pattern>/Assets/*</url-pattern>   
+	</servlet-mapping> 
+	
+   <session-config> 
+   	<session-timeout>30</session-timeout> 
+   </session-config>
+   
+   <welcome-file-list> 
+    <welcome-file>/welcome</welcome-file>
+   </welcome-file-list> 
+   
+</web-app>
